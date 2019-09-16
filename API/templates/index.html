@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+<title>NASA API</title>
+{% block content %} {% for info in posts %}
+    <h1>{{ info.title }}</h1>
+    <h2>by {{ info.name }}</h2>
+    <h2>at {{ info.day }}</h2>
+    <p>{{ info.detail }}</p>
+    <img src="{{ info.image }}" width="500" height="500"
+        align="middle"
+        style="
+          
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: 1;"
+        >   
+{{ fontawesome_html() }}
+{% endfor %} {% endblock content %}

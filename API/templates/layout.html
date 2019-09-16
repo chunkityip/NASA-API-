@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0590f189bf.js"></script>
+    
+    <!-- Connect to the css.main-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+  
+  <!-- Header for HW3 name-->
+  </head>
+  <header>CISC3140 HW3: NASA API</header>
+  <body>
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div >
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+<!-- Footer for link buttom. All information are in About APOD, https://apod.nasa.gov/apod/lib/about_apod.html-->
+<!-- Also, all buttom logo came from Font Aswesome, -->
+<footer>
+  <div class="icons">
+    <a class="aa1" href="https://play.google.com/store/search?q=apod&c=apps">
+      <span class="fab fa-android fa-5x"></span>
+    <a class="aa1" href="http://www.facebook.com/AstronomyPictureOfTheDay">
+      <span class="fab fa-facebook fa-5x"></span>
+    <a class="aa1" href="https://www.instagram.com/apod.id/">
+      <span class="fab fa-instagram fa-5x"></span>
+    <a class="aa1" href="https://apod.tumblr.com/">
+      <span class="fab fa-tumblr fa-5x"></span>
+  </div>
+</footer>
+</html>

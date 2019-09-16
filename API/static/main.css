@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+body {
+  background: #5f2241;
+  background-size: cover;
+}
+
+header {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 50px;
+  color: black;
+}
+
+
+.aa1 {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: white;
+  margin-bottom: -100px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #000070;
+  color: #5f2241;
+  overflow: hidden;
+  position: relative;
+}
+
+.icons {
+  bottom: 100%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.icons a {
+  padding: 0.4rem;
+}
+.icons a:hover {
+  color: black;
+  transition: all 0.2s ease-out;
+}
+

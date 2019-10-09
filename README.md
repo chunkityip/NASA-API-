@@ -1,17 +1,18 @@
 # NASA-API-
--In the app.py , using Flask, requests, flack_fontawesome and fontAwesome 4 libraries
 
--For install FontAswesome:
-pip install fontawesome
+- In the `app.py`, using `Flask`, `requests`, `flask_fontawesome` and fontAwesome 4 libraries
 
--For install flask_fontawesome:
-pip install flask_fontaswesome
+- For install FontAswesome:
+`pip install fontawesome`
 
--In the layout.html, becaseu of using fontawesome.com for icons, it needs personal accents keys, it is in line 15.
+- For install flask_fontawesome:
+`pip install flask_fontaswesome`
 
--In main.css, I uses google fouts, Buugee Inline for the title
+- In the `layout.html`, because of using fontawesome.com for icons, it needs personal accents keys, it is in line 15.
 
--The Untitled.png is the screen captures at my local host.
+- `main.css`, uses google fonts "Buugee Inline" for the title
 
--At the bottom of the page, there are social media ,website and Android store buttom. 
+- `Untitled.png` is the screen captures at my local host.
+
+- At the bottom of the page, there are social media, website and Android store buttom. 
 

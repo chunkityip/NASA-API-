@@ -16,12 +16,12 @@ header {
   width: 75px;
   height: 75px;
   background: white;
-  margin-bottom: -100px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #000070;
   color: #5f2241;
   overflow: hidden;
   position: relative;
+  margin: 0 15px -100px;
 }
 
 .icons {

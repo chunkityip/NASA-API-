@@ -7,7 +7,7 @@ app = Flask(__name__)
 fa = FontAwesome(app)
 
 url = requests.get(
-    'https://api.nasa.gov/planetary/apod?api_key=iBeT2hXG8tezilCqlJ5IXkNpTPWBFpB95bo72qyh')
+    'https://api.nasa.gov/planetary/apod?api_key=iBeT2hXG8tezilCqlJ5IXkNpTPWBFpB95bo72qyh', timeout=60)
 text = url.json()
 image = text['url']
 name = text['copyright']
